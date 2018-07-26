@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/generic3_desktop"
+    tools:context=".screens.RulesActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textViewRules"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:background="@android:color/transparent"
+            android:gravity="center"
+            android:paddingBottom="15dp"
+            android:text="@string/Rules"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textViewDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:background="@android:color/transparent"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:text="@string/DescriptionRules"
+            android:textColor="@android:color/white"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/backRules"
+            style="@style/GameStyle.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="34dp"
+            android:layout_margin="16dp"
+            android:layout_marginStart="16dp"
+            android:paddingLeft="@dimen/padding_button_slots"
+            android:paddingRight="@dimen/padding_button_slots"
+            android:text="Назад"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="@+id/save"
+            app:layout_constraintStart_toStartOf="parent" />
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

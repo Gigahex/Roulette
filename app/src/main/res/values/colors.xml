@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#cea13b</color>
+    <color name="endColorButtonFocused">#79C83F</color>
+    <color name="startColorButtonFocused">#79C83F</color>
+    <color name="button_focused">#7986cb</color>
+    <color name="button_pressed">#d7c845</color>
+    <color name="button_normal">#cea03b</color>
+    <color name="highlight">#026839</color>
+</resources>

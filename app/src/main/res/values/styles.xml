@@ -1,0 +1,33 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="GameStyle" parent="AppTheme.NoActionBar">
+        <item name="android:textViewStyle">@style/GameStyle.TextView</item>
+        <item name="android:buttonStyle">@style/GameStyle.Button</item>
+    </style>
+
+    <style name="GameStyle.Button" parent="@android:style/Widget.Button">
+        <item name="android:background">@drawable/button</item>
+    </style>
+
+    <style name="radioButtonStyle" parent="Base.Widget.AppCompat.CompoundButton.RadioButton">
+        <item name="android:background">@drawable/selector_radiobutton</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+    <style name="GameStyle.TextView" parent="Base.Widget.AppCompat.TextView.SpinnerItem">
+        <item name="background">@drawable/shape_textview</item>
+    </style>
+</resources>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Рулетка</string>
+    <string name="slots_btn_play">Играть</string>
+    <string name="slots_btn_rules">Правила</string>
+    <string name="slots_btn_exit">Выход</string>
+    <string name="slots_btn_start">Старт</string>
+    <string name="Rules">Правила</string>
+    <string name="DescriptionRules">
+         Первоначально у вас депозит на 1000 денежных единиц. Имееется 4 вида ставок: на КРАСНОЕ-ЧЁРНОЕ, ЧЁТНОЕ-НЕЧЁТНОЕ
+    число. Коэффициенты у всех ставок 1:1. Выбор вида ставок представлен в виде панели вверху. Приятной игры!
+    </string>
+    <string name="slots_btn_results">Результаты</string>
+</resources>
